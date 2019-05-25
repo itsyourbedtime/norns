@@ -94,6 +94,7 @@ end
 norns.menu.get_enc = function() return menu.penc end
 norns.menu.get_key = function() return menu.key end
 norns.menu.get_redraw = function() return menu.redraw end
+norns.menu.set_status = function(s) menu.set_mode(s) end
 
 norns.scripterror = function(msg)
   local msg = msg;
